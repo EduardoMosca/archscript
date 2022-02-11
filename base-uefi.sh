@@ -18,6 +18,7 @@ grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB
 grub-mkconfig -o /boot/grub/grub.cfg
 
 systemctl enable NetworkManager
+systemctl enable dhcpcd
 systemctl enable bluetooth
 systemctl enable cups.service
 systemctl enable sshd
