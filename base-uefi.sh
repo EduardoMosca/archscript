@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#If this not worked, try sed -i -e 's/^M$//' scriptname.sh. (Press Ctrl+V Ctrl+M to insert that ^M.)
 ln -sf /usr/share/zoneinfo/America/Fortaleza /etc/localtime
 hwclock --systohc
 
