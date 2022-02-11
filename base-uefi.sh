@@ -20,6 +20,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 systemctl enable NetworkManager
 systemctl enable dhcpcd
 systemctl enable dnsmasq
+systemctl enable iwd
 systemctl enable bluetooth
 systemctl enable cups.service
 systemctl enable sshd
